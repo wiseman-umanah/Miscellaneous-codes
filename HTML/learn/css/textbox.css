@@ -1,0 +1,102 @@
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+.profile-name{
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top:0px;
+	margin-bottom: 3px;
+}
+
+.nickname,.category{
+	color: grey;
+	margin-top:0px;
+	margin-bottom: 3px;
+}
+.prof-pic{
+	display: inline-block;
+	padding: 10px;
+}
+.details{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+	margin-right: 100px;
+	width: 150px;
+}
+.follow{
+	background-color: rgb(0, 110, 255);
+	color: white;
+	width: 70px;
+	height: 30px;
+	font-size: 12px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.15s;
+}
+.follow:hover{
+	background-color:rgb(6, 85, 189);
+}
+.follow:active{
+	opacity: 0.8;
+}
+.button{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px;
+}
+.overall,.cat2,.dog{
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+	width: 450px;
+}
+.addfriend-column {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.warrior{
+	width: 120px;
+	object-fit: cover;
+	vertical-align: top;
+	height: 75px;
+}
+.youtube-videos{
+	display: inline-block;
+	vertical-align: top;
+}
+.video{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 0px;
+	width: 200px;
+	margin-bottom: 6px;
+	line-height: 18px;
+
+}
+.video-details{
+	vertical-align: top;
+	display: inline-block;
+	width: 250px;
+	margin-left: 5px;	
+}
+.author,.date{
+	color: grey;
+	margin-bottom: 5px;
+	margin-top: 0px;
+	font-size: 11px;
+	word-spacing: 3px;
+}
+.firstvideo, .second-video, .third-video {
+	margin-bottom: 20px;
+}
+.all{
+	display: inline-block;
+}

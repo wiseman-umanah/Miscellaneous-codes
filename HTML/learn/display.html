@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <title>Display</title>
+        <style>
+            .name,.email{
+                display: block;
+                margin-bottom: 3px;
+            }
+            .customer{
+                font-family: Arial;
+                width: 220px;
+                display: inline-block;
+                line-height: 20px;
+            }
+            .ans,.customer{
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+            .google{
+                width: 400px;
+                padding-left: 15px;
+                height: 30px;
+                font-size: 13px;
+                margin-left: 0px;
+                border: none;
+                border-radius: 12.5px;
+                box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5)
+            }
+            .png{
+                width: 150px;
+                display: block;
+                margin-left: 120px;
+            }
+            .goo{
+                margin-bottom: 50px;
+            }
+            .useremail{
+                display: block;
+                height: 25px;
+                width: 322px;
+                margin-top: 15px;
+                font-size: 16px;
+            }
+            .user{
+                margin-right: 10px;
+            }
+            .user,.username{
+                height: 25px;
+                width: 150px;
+                font-size: 16px;
+            }
+            .signup{
+                background-color: rgb(0, 110, 255);
+                color: white;
+                margin-top: 20px;
+                width: 329px;
+                height: 50px;
+                font-size: 20px;
+                border: none;
+                border-radius: 8px;
+                font-weight: bold;
+                cursor: pointer;
+                transition: all 0.15s;
+            }
+            .signup:hover{
+                background-color:rgb(6, 85, 189);
+            }
+            .signup:active{
+                opacity: 0.8;
+            }
+            .Click{
+                background-color: rgb(29, 28, 28);
+                height: 40px;
+                width: 120px;
+                border: none;
+                font-size: 12px;
+                cursor: pointer;
+                color: rgba(255, 255, 255, 0.932);
+                word-spacing: 3px;
+                transition: all 0.15s;
+                font-family: Arial;
+                margin-right: 15px;
+	        }
+            .Click:hover{
+                opacity: 0.7;
+            }
+             .Click:active{
+                 opacity: 0.9;
+             }
+            .uber{
+                font-size: 30px;
+                font-family: Arial;
+                margin-bottom: 15px;
+            }
+            .pickup{
+                display: block;
+                background-color: rgba(94, 88, 88, 0.082);
+                border: none;
+                font-size: 12px;
+                height: 40px;
+                width: 500px;
+                padding-left: 15px;
+                margin-bottom: 8px;
+                font-family: Arial;
+            }
+            .destination{
+                display: block;
+                background-color: rgba(94, 88, 88, 0.082);
+                border: none;
+                font-size: 12px;
+                height: 40px;
+                width: 500px;
+                padding-left: 15px;
+                margin-bottom: 30px;
+                font-family: Arial;
+            }
+            .schedule{
+                background-color: rgba(94, 88, 88, 0.082);
+                height: 40px;
+                width: 130px;
+                border: none;
+                font-size: 12px;
+                cursor: pointer;
+                color: black;
+                word-spacing: 3px;
+                transition: all 0.15s;
+                font-family: Arial;
+                margin-right: 15px;
+            }
+            .schedule:hover{
+                opacity: 0.7;
+            }
+         .church{
+            margin-top: 10px;
+            border: solid;
+            width: 300px;
+            border-width: 1px;
+            border-color: rgba(0, 0, 0, 0.274);
+            background-color: rgba(0, 0, 0, 0.911);
+            color: white;
+         }
+        </style>
+    </head>
+    <body>
+        <input class = "name" type="text" placeholder="Name">
+        <input class ="email" type="email" placeholder="Email">
+        <p class="customer">Thanks for chatting with our customer support.
+            Would you like to take our quick survey?
+        </p>
+        <button class="ans">Yes</button>
+        <button class="ans">No</button>
+        <div class="goo">
+            <img class="png" src="google_PNG.png">
+            <input class="google" type="text" placeholder="Search Google or type a URL">
+        </div>
+
+        <input class="user" type="text" placeholder="First name">
+        <input class="username" type="text" placeholder="Surname">
+        <input class="useremail" type="email" placeholder="Email">
+        <button class="signup">Sign Up</button>
+        <p class="uber">Request a ride now</p>
+        <input class="pickup" type="text" placeholder="Enter pickup location">
+        <input class="destination" type="text" placeholder="Enter destination">
+        <button class = "Click">Request now</button>
+        <button class = "schedule">Schedule for later</button>
+        <div class="church">
+            <p>Satisfied with our service?</p>
+            <button>Yes</button> <button>No</button>
+        </div>
+    </body>
+</hmtl>

@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: Roboto;
+    background-color: rgb(31, 31, 31);
+}
+.logo{
+    width: 80px;
+}
+.signin{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box1{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.623);
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+}
+input[type="email"] {
+    padding: 0px 10px;
+    color: white;
+    font-size: 15px;
+}
+input::placeholder{
+    color: rgb(194, 191, 191);
+    font-size: 15px;
+}
+.get-started{
+    font-size: 17px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    width: 120px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.get-started:hover, .signin:hover{
+    background-color: rgb(201, 11, 20);
+}
+.get-started:active, .signin:active{
+    background-color: rgb(160, 8, 15);
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.tv, .phone, .kids{
+    width: 100%;
+}
+.box5, .box7,.box8{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+.box6{
+    position: relative;
+}
+.smallerbox{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: black;
+    width: 50%;
+    align-items: center;
+}
+.video-detail{
+    margin-left: 15px;
+    text-align: start;
+}
+.video-name{
+    font-weight: bold;
+    font-size: 14px;
+}
+.video-stats{
+    color: rgb(0, 119, 255);
+    font-size: 13px;
+}
+.inner-img{
+    width: 15%;
+}
+.box9{
+    text-align: center;
+    margin: 0px 20px;
+}
+.box9 h2{margin: 0px 0px 25px;}
+.box9 p{
+    margin-top: 50px;
+}
+.fq{
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    height: 60px;
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.15s;
+}
+.fq:hover{
+    background-color: rgb(63, 61, 61);
+}
+.t{
+    font-size: 13px;
+    padding: 20px;
+    color: rgb(185, 185, 185);
+}
+.questions{
+    margin-bottom: 40px;
+}
+.t a{
+    color: rgb(185, 185, 185);
+}
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+.language{
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+}
+.section1{
+    background-color: black;
+    margin-top: 8px;
+    padding: 30px 0px;
+}
+.section2{
+    background-image: url(images/netflix-background.jpg);
+    background-size: 100%;
+    background-position: 500%;
+}
+.background{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 1) 100%);
+    padding-bottom: 25px;
+}
+.language + p{
+    font-size: 13px;
+}
+
+@media (min-width: 650px) {
+    .Grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .box3{
+        display: flex;
+        flex-direction: row;
+    }
+    input{
+        margin: 0px 8px;
+    }
+    .video-name{
+        font-size: 18px;
+    }
+    .section1{
+        padding: 20px 50px;
+    }
+    .box9 div{
+        font-size: 20px;
+    }
+    .get-started{
+        font-size: 20px;
+        width: 150px;
+    }
+  }
+  @media (min-width: 950px){
+    .box5, .box7,.box8{
+        flex-direction: row;
+        text-align: start;
+    }
+    .kids{
+        width: 50%;
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 23px;
+    }
+    .x{
+        width: 350px;
+    }
+    .download-detail{
+        width: 500px;
+    }
+    .box4{
+        flex-direction: row;
+        align-items: center;
+        text-align: start;
+        padding: 20px 0px;
+    }
+    .tv{
+        width: 450px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .box2{
+        margin: 150px 100px 20px 100px;
+    }
+    .background{
+        padding-bottom: 80px ;
+    }
+    .section1{
+        padding: 40px 150px;
+    }
+    .box1{
+        padding: 20px 150px;
+    }
+    .box7{
+        padding: 0px 150px;
+    }
+  }

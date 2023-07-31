@@ -1,0 +1,11 @@
+/*#intro {
+	color:white;
+	background-color:blue;
+}*/
+p.serif {
+	font-family: "Times New Roman", Times, serif;
+
+}
+p.monospace{
+	font-family: "Courier New", Courier, monospace;
+}

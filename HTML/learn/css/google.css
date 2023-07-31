@@ -1,0 +1,28 @@
+.google{
+    width: 600px;
+    padding-left: 15px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 0px;
+    border: none;
+    border-radius: 12.5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.png{
+    width: 150px;
+    display: inline;
+}
+.all{
+    text-align: center;
+    margin-top: 200px;
+}
+p{
+    display: inline;
+    background-color: rgba(94, 88, 88, 0.068);
+    font-family: Arial;
+    margin-left: 10px;
+    padding: 10px 15px;
+    vertical-align: top;
+} 

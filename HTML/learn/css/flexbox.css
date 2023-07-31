@@ -1,0 +1,163 @@
+.flexbox{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blueviolet;
+}
+
+.Homepage{
+    padding-top: 3px;
+    color: white;
+    width: 50px;
+    padding-left: 10px;
+    margin-right: 30px;
+}
+
+.searchbox{
+    display: flex;
+    flex: 1;
+}
+
+.download{
+    flex-shrink: 0;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.download-button{
+    background-color: blueviolet;
+    color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: white;
+    border: solid;
+    height: 25px;
+    width: 80px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.download-button:hover{
+    opacity: 0.5;
+}
+.download-button:active{
+    opacity: 0.8;
+}
+.search{
+    height: 22px;
+    border-radius: 50px;
+    border-width: 1px;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+}
+.search::placeholder{
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.overall{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    margin-left: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    padding: 15px;
+}
+#video{
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 14px;
+}
+.cat-image{
+    width: 50px;
+    object-fit: cover;
+    height: 50px;
+    border-radius: 25px;
+}
+.link{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.video-description{
+    margin-bottom: 10px;
+}
+.video{
+    border: solid;
+    display: flex;
+    border-color: gray;
+    border-radius: 17px;
+    border-width: 1px;
+    width: 300px;
+}
+.blank{
+    background-color: gray;
+    width: 80px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.youtube{
+    color: gray;
+    margin-bottom: 5px;
+}
+#video-link{
+    padding: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    flex: 1;
+}
+.mailbox{
+    margin-left: 5px;
+    width: 360px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);;
+}
+.category{
+    font-family: Arial;
+    font-size: 11px;
+    display: block;
+    color: gray;
+    margin-bottom: 15px;
+}
+.mail-details{
+    display: flex;
+    margin-bottom: 10px;
+}
+.sender-pic{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.the-mail{
+    margin-left: 10px;
+    font-family: Arial;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.head-time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    align-items: baseline;
+}
+.mail-heading{
+    font-weight: bold;
+    font-size: 16px;
+}
+.mail-date{
+    color: grey;
+    font-size: 11px;
+}
+#mail-heading{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.mail{
+    color: gray;
+    font-size: 11px;
+    word-spacing: 2px;
+}

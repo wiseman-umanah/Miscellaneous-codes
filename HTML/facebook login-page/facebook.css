@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    background-color: #f0f2f5;
+}
+main{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.facebook-preamble{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 330px;
+}
+.login-section{
+    background-color: white;
+    padding: 15px;
+    margin: 35px 0px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.facebook-logo{
+    width: 280px;
+}
+.email{
+    margin-bottom: 12px;
+}
+input{
+    width: 320px;
+    height: 40px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+input::placeholder{
+    color:rgb(161, 159, 159);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-button{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 335px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.login-button:hover{
+    background-color: #0f6eeb;
+}
+.login-button:active{
+    background-color: #063a7e;
+}
+.forget-pass{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    transition: text-decoration 0.15s;
+}
+a:hover{
+    text-decoration: underline;
+}
+.dash{
+    color: rgb(180, 180, 180);
+    margin-top: -3px;
+}
+.button2{
+    margin-top: 20px;
+}
+.create-account{
+    width: 165.5px;
+    height: 40px;
+    word-spacing: 3px;
+    border: none;
+    color: white;
+    padding: 0px 5px 0px 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition:  background-color 0.15s;
+    background-color: #42b72a;;
+}
+.create-account:hover{
+    background-color: #389c24;;
+}
+.page-creation{
+    color: black;
+    font-weight: bold;    
+}
+.create{
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-row{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 30px 0px 30px;
+    font-size: 11px;
+    right: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    color: grey;
+    background-color: white;
+}
+.lang{
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.more-lang{
+    font-weight: bold;
+    color: grey;
+    width: 30px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.ads{
+    width: 10px;
+    vertical-align: middle;
+}
+#lang{
+    line-height: 20px;
+    margin-right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+footer{
+    margin-top: 20px;
+}
+@media (min-width: 900px){
+    main{
+        flex-direction: row;
+        margin: 100px 177.5px 300px;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .login-section{
+        margin-left: 30px;
+    }
+    .flexy{
+        align-items: unset;
+        margin-top: 50px;
+        justify-content: unset;
+    }
+    .facebook-logo{
+        margin-left: -28px;
+    }
+}
+
+@media (min-width: 1075px){
+    .facebook-preamble{
+        font-size: 26px;
+        width: 500px;
+    }
+    .bottom-row{
+        transition: padding 0.8s ease-in;
+        padding: 30px 177.5px 0px 177.5px;
+    }
+}
+@media (max-width: 1075px){
+    .bottom-row{transition: padding 0.8s ease-in;}
+}

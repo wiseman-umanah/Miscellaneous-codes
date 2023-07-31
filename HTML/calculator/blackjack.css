@@ -1,0 +1,27 @@
+
+h1{
+    color: goldenrod;
+}
+p{color: white;}
+button{
+    color: green;
+    background-color: goldenrod;
+    border: none;
+    font-weight: inherit;
+    margin-bottom: 5px;
+    display: block;
+    width: 100px;
+    margin-left: 37%;
+}
+div{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    text-align: center;
+}

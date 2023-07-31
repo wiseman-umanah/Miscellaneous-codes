@@ -1,0 +1,26 @@
+.title {
+	font-size: medium;
+	font-weight: bold;
+	font-family: 'Arial',sans-serif;
+	color: #2F5A78;
+}
+.body{
+	font-size: medium;
+	color: black;
+	text-align: "justify";
+}
+body{
+	background-color: white;
+}
+.subheading{
+	font-family: 'Algerian',sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2F5A78;
+ }
+ .profile{
+ 	border-radius: 150px;
+ 	margin-left: 500px;
+ 	object-fit: contain;
+
+ }

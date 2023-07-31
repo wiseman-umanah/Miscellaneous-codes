@@ -1,0 +1,310 @@
+<!--Youtube -->
+<style>
+	.Click{
+		font-weight: bold;
+		background-color: rgb(29, 28, 28);
+		height: 25px;
+		width: 100px;
+		border: none;
+		font-size: 12px;
+		cursor: pointer;
+		color: white;
+		transition: opacity 0.15s;
+	}
+	.Click:hover{
+		opacity: 0.7;
+	}
+	p.nike{
+		font-size: 23px;
+		color: rgb(0, 0, 0);
+		font-weight: bold;
+	}
+	p.price{
+		color: rgb(0,118,0);
+		font-size: 18px;
+		font-weight: bold;
+	}
+	p.delivery{
+		font-weight: bold;
+		color: black;
+	}
+	.cart{
+		color: black;
+		background-color: rgb(255, 216,20);
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 9px;
+		padding-right: 9px;
+		vertical-align: top;
+		border: none;
+		border-radius: 10px;
+		font-weight: bold;
+		font-size: 12px;
+		cursor: pointer;
+		margin-right: 8px;
+		transition: background-color 0.15s, opacity 0.15s;
+	}
+	.cart:hover{
+		background-color: rgb(134, 115, 16);
+	}
+	.cart:active{
+		opacity: 0.5;
+	}
+	.buy{
+		color: black;
+		background-color: rgb(255, 164, 28);
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 9px;
+		padding-right: 9px;
+		vertical-align: top;
+		border: none;
+		border-radius: 10px;
+		font-weight: bold;
+		font-size: 12px;
+		cursor: pointer;
+		transition: background-color 0.15s, opacity 0.15s;
+	}
+	.buy:hover{
+		background-color: rgb(216, 135, 13);
+	}
+	.buy:active{
+		opacity: 0.5;
+	}
+	.link{
+		color: rgb(0, 113, 133);
+		transition: color 0.15s;
+	}
+	.link:hover{
+		color: rgb(184, 13, 13);
+	}
+	.hub{
+		font-weight: bold;
+		background-color: rgb(0, 128, 32);
+		height: 25px;
+		width: 70px;
+		border: none;
+		border-radius: 4px;
+		font-size: 12px;
+		cursor: pointer;
+		color: white;
+		transition: box-shadow 0.15s;
+	}
+	.hub:hover{
+		box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+	}
+	.get{
+		font-weight: bold;
+		background-color: rgb(103, 34, 143);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 8px;
+		padding-right: 8px;
+		vertical-align: top;
+		border: none;
+		border-radius: 2px;
+		font-size: 12px;
+		cursor: pointer;
+		color: white;
+		margin-right: 8px;
+		transition: background-color 0.15s;
+	}
+	.get:hover{
+		background-color:rgb(90, 16, 133) ;
+	}
+	.Download{
+		font-weight: bold;
+		background-color: white;
+		padding-top: 9px;
+		padding-bottom: 9px;
+		padding-left: 8px;
+		padding-right: 8px;
+		vertical-align: top;
+		border: solid;
+		border-width: 1px;
+		border-radius: 2px;
+		font-size: 12px;
+		cursor: pointer;
+		color: rgb(138, 135, 135);
+		transition: background-color 0.15s, color 0.15s, border 0.15s;
+	}
+	.Download:hover{
+		background-color: rgb(138, 135, 135);
+		color: white;
+		border: none;
+	}
+	.Apply{
+		font-weight: bold;
+		background-color: rgb(11, 133, 214);
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 12px;
+		padding-right: 12px;
+		vertical-align: top;
+		border: none;
+		border-radius: 12px;
+		font-size: 12px;
+		cursor: pointer;
+		color: white;
+		transition: background-color 0.15s;
+		margin-right: 5px;
+	}
+	.Apply:hover{
+		background-color:rgb(5, 108, 177) ;
+	}
+	.Save{
+		font-weight: bold;
+		background-color: white;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		padding-left: 8px;
+		padding-right: 8px;
+		vertical-align: top;
+		border: solid;
+		border-width: 1px;
+		border-color: rgb(11, 133, 214);
+		border-radius: 12px;
+		font-size: 12px;
+		cursor: pointer;
+		color: rgb(11, 133, 214);
+		transition: box-shadow 0.15s;
+		margin-left: 8px;
+	}
+	.Save:hover{
+		background-color: rgb(229, 245, 255);
+		border-width: 2px;
+	}
+	.page{
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 6px;
+		padding-right: 6px;
+		vertical-align: top;
+		font-weight: normal;
+	}
+	
+	#back{
+		margin-right: 5px;
+	}
+	.num{
+		margin-right: 5px;
+	}
+	#but{
+		padding-top: 9px;
+		padding-bottom: 9px;
+		padding-left: 6px;
+		padding-right: 6px;
+		vertical-align: top;
+		border-color: rgba(0, 0, 0, 0);
+		border: none;
+	}
+	.one{
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 6px;
+		padding-right: 6px;
+		vertical-align: top;
+		color: white;
+		background-color: green;
+		border: none;
+		margin-right: 8px;
+		transition: all 0.15s;
+		cursor: pointer;
+	}
+	.one:hover{
+		padding-left: 12px;
+		padding-right: 12px;
+		
+	}
+	.two{
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 6px;
+		padding-right: 6px;
+		vertical-align: top;
+		color: white;
+		background-color: green;
+		border: none;
+		margin-right: 8px;
+		transition: all 0.15s;
+		cursor: pointer;
+	}
+	.two:hover{
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+	.three{
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-left: 6px;
+		padding-right: 6px;
+		vertical-align: top;
+		color: white;
+		background-color: green;
+		border: none;
+		margin-right: 8px;
+		transition: all 0.15s;
+		cursor: pointer;
+	}
+	.three:hover{
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+	.nikeshoes{
+		width: 200px;
+		border-radius: 100px;
+	}
+</style>
+<p><button class = "Click">Request now</button></p>
+<p><button class="hub">Sign up</button></p>
+<p>
+	<button class="get">Get Button</button>
+	<button class="Download">Download</button>
+</p>
+<p>
+	<button class="Apply">Apply on company website</button>
+	<button class="Save">Save</button>
+</p>
+<p>I came back from my Aunt's place.</p>
+<a href = "https://www.google.com" target = "_blank">Search with Google</a>
+<p class="link">
+<a href="https://www.amazon.com" class="link" target="_blank">
+Back to Amazon 
+</a>
+</p>
+<p class="Nike">Nike Black Running Shoes.</p>
+<p><img class="nikeshoes" src="nikeshoes.jpg" alt="nike shoes"></p>
+<p class="price">$39 - in stock.</p>
+<p class="delivery">Free delivery tomorrow.</p>
+<button class="cart">
+	Add to Cart
+</button>
+<button class="buy">
+	Buy now
+</button>
+<p>
+<button class="page" id="back">
+	Back
+</button>
+<button id="but">
+<a href="https://www.facebook.com" target="_blank" class="num">1</a>
+<a href="https://www.facebook.com" target="_blank" class="num">2</a>
+<a href="https://www.facebook.com" target="_blank" class="num">3</a>
+<a href="https://www.facebook.com" target="_blank" class="num">4</a>
+<a href="https://www.facebook.com" target="_blank" class="num">5</a>
+</button>
+<button class="page" id="next">
+	Next
+</button>
+</p>
+<p>
+	<button class="stretch">Stretch</button>
+</p>
+<p>
+	<button class="3d">Shadow</button>
+</p>
+<p>
+	<button class="one">One</button>
+	<button class="two">Two</button>
+	<button class="three">Three</button>
+</p>

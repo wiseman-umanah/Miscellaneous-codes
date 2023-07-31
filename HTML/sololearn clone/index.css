@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0;
+    background-color: whitesmoke;
+    line-height: 1.5;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(59, 59, 59);
+}
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.statusbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px 0px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(148, 147, 147);
+}
+.progress-bar{
+    display: flex;
+    align-items: center;
+}
+.progression{
+    width: 600px;
+    margin-right: 10px;
+}
+.heart{
+    vertical-align: middle;
+}
+.heartCount{
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: rgb(77, 76, 76);
+}
+.components{
+    width: 50%;
+    padding-top: 30px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+}
+.info{
+    display:flex;
+    background-color: rgb(247, 228, 176);
+    border-radius: 10px;
+    width: 570px;
+    padding: 20px;
+    align-items: center;
+}
+.notification-message{
+    margin-left: 10px;
+}
+.next-page{
+    background-color: whitesmoke;
+    margin-top: 3px;
+    border-top: 2px solid rgba(219, 219, 219, 0.815);
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 500px;
+}
+button{
+    position: relative;
+    top: 25%;
+    left: 60%;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 40px;
+    background-color: rgb(65, 161, 240);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(55, 144, 218);;
+}
+button:active{
+    opacity: 0.8;
+}
+span{
+    font-weight: bold;
+}
+ol{
+    list-style-type: circle;
+}

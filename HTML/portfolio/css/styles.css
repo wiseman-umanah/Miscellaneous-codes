@@ -1,0 +1,86 @@
+/* fonts used
+font-family: 'Caveat', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+/*--------------general style-----------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+a:hover{
+    text-decoration: none;
+}
+
+p{
+    
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+h1{
+    font-size: 5em;
+}
+h1, h2{
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+    margin: 0;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0 0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0px auto;
+    padding: 60px 0;
+}
+
+/*--------------header style-----------*/
+header{
+    color: ghostwhite;
+    background-color: #5D2E8C;
+    text-align: center;
+}
+header a{
+    color: #F1E8B8;
+}
+
+/*--------------project style-----------*/
+.projects{
+    background-color: #F1E8B8;
+}
+.projects h3{
+    float: right;
+}
+img{
+    width: 35%;
+    float: left;
+}
+.projects p{
+    float: both;
+}
+
+/*--------------work-experience style-----------*/
+.work-experience{
+    background-color: #FF6666;
+}
+
+/*--------------education style-----------*/
+.education{
+    background-color: #CCFF66;
+}
+
+/*--------------footer style-----------*/
+footer{
+    background-color: #2EC4B6;
+}
+
+
+
